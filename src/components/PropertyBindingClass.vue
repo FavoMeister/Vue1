@@ -15,6 +15,15 @@ setTimeout(() => {
     clasesBoton.value['btn-primary'] = !clasesBoton.value['btn-primary'];
     clasesBoton.value['btn-sm'] = !clasesBoton.value['btn-sm'];
 }, 2500);
+
+const textAlert = ref({
+    backgroundColor: '#d1e095',
+    color: '#73828c',
+    fontWeight: 'bold',
+    height: '100px',
+    padding: '30px'
+})
+
 </script>
 
 <template>
@@ -24,6 +33,10 @@ setTimeout(() => {
     <button class="btn" :class="clasesBoton">
         Botón Principal
     </button>
+    <hr>
+    <div :style="textAlert">
+        Alert
+    </div>
   </div>
 </template>
 
