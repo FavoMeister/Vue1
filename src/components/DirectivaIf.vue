@@ -15,6 +15,4 @@ const estaRegistrado = ref(false);
     </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
