@@ -5,6 +5,8 @@ import PropertyBindingClass from './components/PropertyBindingClass.vue';
 import Eventos from './components/Eventos.vue';
 import DirectivaIf from './components/DirectivaIf.vue';
 import DirectivaElseIf from './components/DirectivaElseIf.vue';
+import DirectivaOnce from './components/DirectivaOnce.vue';
+import DirectivaFor from './components/DirectivaFor.vue';
 </script>
 
 <template>
@@ -14,7 +16,9 @@ import DirectivaElseIf from './components/DirectivaElseIf.vue';
     <!-- <PropertyBindingClass/> -->
     <!-- <Eventos/> -->
     <!-- <DirectivaIf/> -->
-     <DirectivaElseIf/>
+    <!-- <DirectivaElseIf/> -->
+    <!-- <DirectivaOnce/> -->
+     <DirectivaFor />
   </div>
 </template>
 
